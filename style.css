@@ -10,7 +10,7 @@
 
 html {
     --font-color: #000;
-    --font-size: 16px;
+    --font-size: 18px;
 
     background: white;
     color: #000;
@@ -93,12 +93,12 @@ div.question > div.a {
     border-radius: 15px;
     margin: 5px 5px;
     padding: 6px 15px;
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 div.question > div.next {
     background: rgb(134, 170, 134);
-    border: 1px solid rgb(101, 150, 101);
+    border: 3px solid rgb(101, 150, 101);
     border-radius: 15px;
     padding: 6px 15px;
     margin: 0px 5px;
