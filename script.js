@@ -5,6 +5,23 @@ const testContainer = document.querySelector('div.test');
 let currentQ = 0;
 let scores = null;
 
+/**
+ * image preloader
+ * @param {String[]} src 
+ */
+ function preload(src) {
+    let img = new Image();
+    let index = 0;
+
+    img.src = src[0];
+    img.onload = function () {
+        index++;
+        if (index < src.length) {
+            img.src = src[index];
+        }
+    }
+}
+
 //#region 체크 박스
 let check = '';
 
